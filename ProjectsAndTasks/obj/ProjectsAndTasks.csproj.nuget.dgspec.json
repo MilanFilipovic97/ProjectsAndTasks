@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Korisnik\\Desktop\\core novi\\ProjectsAndTasks\\ProjectsAndTasks\\ProjectsAndTasks.csproj": {}
+    "C:\\Users\\Korisnik\\Source\\Repos\\MilanFilipovic97\\ProjectsAndTasks\\ProjectsAndTasks\\ProjectsAndTasks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Korisnik\\Desktop\\core novi\\ProjectsAndTasks\\ProjectsAndTasks\\ProjectsAndTasks.csproj": {
+    "C:\\Users\\Korisnik\\Source\\Repos\\MilanFilipovic97\\ProjectsAndTasks\\ProjectsAndTasks\\ProjectsAndTasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\core novi\\ProjectsAndTasks\\ProjectsAndTasks\\ProjectsAndTasks.csproj",
+        "projectUniqueName": "C:\\Users\\Korisnik\\Source\\Repos\\MilanFilipovic97\\ProjectsAndTasks\\ProjectsAndTasks\\ProjectsAndTasks.csproj",
         "projectName": "ProjectsAndTasks",
-        "projectPath": "C:\\Users\\Korisnik\\Desktop\\core novi\\ProjectsAndTasks\\ProjectsAndTasks\\ProjectsAndTasks.csproj",
+        "projectPath": "C:\\Users\\Korisnik\\Source\\Repos\\MilanFilipovic97\\ProjectsAndTasks\\ProjectsAndTasks\\ProjectsAndTasks.csproj",
         "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Desktop\\core novi\\ProjectsAndTasks\\ProjectsAndTasks\\obj\\",
+        "outputPath": "C:\\Users\\Korisnik\\Source\\Repos\\MilanFilipovic97\\ProjectsAndTasks\\ProjectsAndTasks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
@@ -69,6 +69,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             }
           },
           "imports": [
