@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsAndTasks", "ProjectsAndTasks\ProjectsAndTasks.csproj", "{3814EDA3-643D-4C18-B4BE-0583F9B5373F}"
 EndProject
-Global
+Global 
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
