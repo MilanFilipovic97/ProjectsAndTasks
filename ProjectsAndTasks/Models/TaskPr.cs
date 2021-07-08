@@ -13,6 +13,6 @@ namespace ProjectsAndTasks.Models
         public int Priority { get; set; }
         public int ProjectID{ get; set; }
         public int Id { get; set; }
-
+        public Project project { get; set; }
     }
 }
