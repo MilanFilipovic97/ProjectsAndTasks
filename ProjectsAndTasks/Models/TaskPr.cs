@@ -11,8 +11,7 @@ namespace ProjectsAndTasks.Models
         public string Status { get; set; }
         public int Description { get; set; }
         public int Priority { get; set; }
-        public int ProjectID{ get; set; }
         public int Id { get; set; }
-        public Project project { get; set; }
+        public Project Project { get; set; }
     }
 }
