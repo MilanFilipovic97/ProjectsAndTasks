@@ -28,11 +28,13 @@ namespace ProjectsAndTasks
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ProjectContext>(opt => opt.UseInMemoryDatabase("ProjectList"));
-            services.AddDbContext<TaskContext>(opti => opti.UseInMemoryDatabase("TaskList"));
+            
 
             // except use in memorydatabase it would be sqlServer database
             // and the package for that would be entityframework.core.sqlServer
             services.AddControllers();
+
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -14,5 +14,6 @@ namespace ProjectsAndTasks.Models
         public int ProjectID{ get; set; }
         public int Id { get; set; }
 
+        public Project project { get; set; }
     }
 }
