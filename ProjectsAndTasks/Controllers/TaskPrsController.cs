@@ -13,9 +13,9 @@ namespace ProjectsAndTasks.Controllers
     [ApiController]
     public class TaskPrsController : ControllerBase
     {
-        private readonly TaskContext _context;
+        private readonly ProjectContext _context;
 
-        public TaskPrsController(TaskContext context)
+        public TaskPrsController(ProjectContext context)
         {
             _context = context;
         }
