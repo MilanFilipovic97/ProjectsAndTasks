@@ -14,7 +14,7 @@ namespace ProjectsAndTasks.Controllers
     public class TaskPrsController : ControllerBase
     {
         private readonly ProjectContext _context;
-
+         
         public TaskPrsController(ProjectContext context)
         {
             _context = context;

@@ -34,7 +34,7 @@ namespace ProjectsAndTasks.Controllers
             var project = await _context.ProjectItems.FindAsync(id);
 
             if (project == null)
-            {
+            { 
                 return NotFound();
             }
 

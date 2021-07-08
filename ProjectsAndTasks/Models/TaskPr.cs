@@ -12,6 +12,6 @@ namespace ProjectsAndTasks.Models
         public int Description { get; set; }
         public int Priority { get; set; }
         public int Id { get; set; }
-        public Project Project { get; set; }
+        public Project Project { get; set; } 
     }
 }
